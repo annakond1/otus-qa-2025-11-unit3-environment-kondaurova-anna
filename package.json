@@ -1,0 +1,22 @@
+{
+  "name": "otus-environment-27-12-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "lint:ci": "eslint .",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "prettier": "3.7.4"
+  }
+}
