@@ -5,11 +5,3 @@
     }
   }
 }
- [1](https://mukeshbagaria.hashnode.dev/how-to-set-up-jest-testing-framework-for-es6-javascript-modules)
-
-3. **Сохранить файл в корневой папке проекта**. Эта конфигурация говорит Babel, транспайлеру JavaScript, используемому Jest, преобразовывать ES-модули в модули CommonJS во время тестирования. 
-4. **Открыть терминал**, перейти в корневую папку проекта и выполнить команду `npm install --save-dev jest @babel/plugin-transform-modules-commonjs`.
-
- [1](https://mukeshbagaria.hashnode.dev/how-to-set-up-jest-testing-framework-for-es6-javascript-modules)
-
-Более подробную информацию и примеры конфигураций можно найти на сайте jestjs.io. [1](https://mukeshbagaria.hashnode.dev/how-to-set-up-jest-testing-framework-for-es6-javascript-modules)[5](https://www.designcise.com/web/tutorial/how-to-fix-syntaxerror-unexpected-token-jest-error)
